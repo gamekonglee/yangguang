@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/activity_container" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="15.0dip" android:layout_width="fill_parent" android:layout_height="50.0dip">
+            <Button android:textColor="@color/black" android:id="@id/topLeftBtn" android:background="@mipmap/nav_icon_return" android:layout_width="10.0dip" android:layout_height="18.0dip" android:layout_centerVertical="true" />
+            <EditText android:textSize="15.0sp" android:textColor="#ff666666" android:id="@id/et_search" android:background="@drawable/bg_corner_f3f3f3_2" android:paddingLeft="5.0dip" android:paddingTop="2.0dip" android:paddingBottom="2.0dip" android:layout_width="0.0dip" android:layout_height="40.0dip" android:layout_marginLeft="15.0dip" android:layout_marginRight="5.0dip" android:hint="搜索商品、型号" android:singleLine="true" android:layout_weight="1.0" android:inputType="text" android:imeOptions="actionSearch" />
+            <Button android:id="@id/topRightBtn" android:background="@mipmap/sousuo" android:visibility="gone" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginRight="10.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            <ImageView android:id="@id/iv_scale" android:background="@mipmap/nav_icon_scan" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginRight="10.0dip" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="50.0dip">
+            <TextView android:textSize="15.0sp" android:textColor="@color/theme_red" android:gravity="center" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="全部" android:layout_weight="1.0" />
+            <cc.bocang.bocang.view.TextViewPlus android:textSize="13.0sp" android:textColor="@color/theme_555555" android:ellipsize="end" android:gravity="center" android:id="@id/tv_filter_1" android:paddingLeft="5.0dip" android:paddingRight="15.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="类型" android:lines="1" android:drawableRight="@mipmap/icon_down" android:layout_weight="1.0" />
+            <cc.bocang.bocang.view.TextViewPlus android:textSize="13.0sp" android:textColor="@color/theme_555555" android:ellipsize="end" android:gravity="center" android:id="@id/tv_filter_2" android:paddingLeft="8.0dip" android:paddingRight="15.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="空间" android:lines="1" android:drawableRight="@mipmap/icon_down" android:layout_weight="1.0" />
+            <cc.bocang.bocang.view.TextViewPlus android:textSize="13.0sp" android:textColor="@color/theme_555555" android:ellipsize="end" android:gravity="center" android:id="@id/tv_filter_3" android:paddingLeft="5.0dip" android:paddingRight="15.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="适用面积" android:lines="1" android:drawableRight="@mipmap/icon_down" android:layout_weight="1.0" />
+        </LinearLayout>
+        <FrameLayout android:id="@id/content" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/toolbar">
+            <com.lib.common.hxp.view.PullToRefreshLayout android:id="@id/mFilterContentView" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <include layout="@layout/refresh_head" />
+                <com.lib.common.hxp.view.PullableGridView android:id="@id/priductGridView" android:background="@android:color/transparent" android:paddingLeft="15.0dip" android:paddingTop="5.0dip" android:paddingRight="15.0dip" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:horizontalSpacing="15.0dip" android:verticalSpacing="15.0dip" android:numColumns="2" />
+                <include layout="@layout/load_more" />
+            </com.lib.common.hxp.view.PullToRefreshLayout>
+            <ProgressBar android:layout_gravity="center_horizontal" android:id="@id/pd" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Base.Widget.AppCompat.ProgressBar" />
+        </FrameLayout>
+    </LinearLayout>
+    <FrameLayout android:id="@id/fl_filter" android:background="#33000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="95.0dip">
+        <GridView android:id="@id/gv_filter" android:background="#ffffffff" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:horizontalSpacing="10.0dip" android:verticalSpacing="10.0dip" android:numColumns="3" />
+    </FrameLayout>
+</RelativeLayout>

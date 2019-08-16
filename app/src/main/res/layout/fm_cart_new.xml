@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="50.0dip">
+        <TextView android:textSize="18.0sp" android:textColor="#ff333333" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="购物车" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <View android:background="#fff3f3f3" android:layout_width="fill_parent" android:layout_height="10.0dip" />
+    <ScrollView android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.yjn.swipelistview.swipelistviewlibrary.widget.SwipeMenuListView android:id="@id/listView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:dividerHeight="1.0dip" />
+        </LinearLayout>
+    </ScrollView>
+    <RelativeLayout android:gravity="center_vertical" android:layout_gravity="center_horizontal" android:background="#ffffffff" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="50.0dip">
+        <CheckBox android:id="@id/checkAll" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:button="@drawable/selector_checkbox" android:text="  全选" android:layout_centerVertical="true" />
+        <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/agiolv" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_toRightOf="@id/checkAll" android:layout_centerVertical="true">
+            <EditText android:gravity="center" android:id="@id/sumAgioTv" android:background="@drawable/number_input_et_bg" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:layout_width="50.0dip" android:layout_height="30.0dip" android:layout_marginLeft="10.0dip" android:hint=".." android:maxLength="2" android:inputType="number" />
+            <TextView android:textSize="50.0px" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="%" />
+        </LinearLayout>
+        <TextView android:textSize="14.0sp" android:textColor="@android:color/white" android:gravity="center" android:id="@id/settle_tv" android:background="@color/theme_red" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="15.0dip" android:text="去结算" android:layout_alignParentRight="true" />
+        <LinearLayout android:gravity="center|right" android:orientation="horizontal" android:layout_width="150.0dip" android:layout_height="fill_parent" android:layout_toLeftOf="@id/settle_tv">
+            <TextView android:textSize="13.0sp" android:textColor="@color/black" android:id="@id/sumNameTv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="合计:" />
+            <TextView android:textSize="18.0sp" android:textColor="#fff33f3f" android:id="@id/money_tv" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:text="￥0" />
+        </LinearLayout>
+        <TextView android:textSize="13.0dip" android:textColor="#ff818080" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="25.0dip" android:text="不含运费和税" android:layout_toLeftOf="@id/settle_tv" />
+    </RelativeLayout>
+</LinearLayout>

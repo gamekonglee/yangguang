@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ffffffff" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="50.0dip">
+        <LinearLayout android:gravity="center_vertical" android:layout_width="80.0dip" android:layout_height="fill_parent" android:onClick="goBack">
+            <LinearLayout android:gravity="center_vertical" android:layout_width="80.0dip" android:layout_height="fill_parent" android:onClick="goBack">
+                <RelativeLayout android:textColor="@color/black" android:id="@id/topLeftBtn" android:layout_width="80.0dip" android:layout_height="40.0dip" android:text="返回" android:layout_centerVertical="true">
+                    <ImageView android:background="@mipmap/nav_icon_return" android:layout_width="11.0dip" android:layout_height="20.0dip" android:layout_marginLeft="15.0dip" android:layout_centerVertical="true" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <TextView android:textSize="18.0dip" android:textColor="#ff333333" android:id="@id/et_search" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="添加收货地址" android:layout_centerInParent="true" />
+        <TextView android:textSize="18.0dip" android:textColor="#ff222222" android:id="@id/tv_delete" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:text="删除" android:layout_alignParentRight="true" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <View android:background="#ffdddddd" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:background="@color/white" android:paddingLeft="@dimen/margin_default" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_normal">
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/edit_height">
+                    <TextView android:textSize="16.0sp" android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/consignee" android:layout_weight="1.0" />
+                    <EditText android:textColor="@color/txt_black" android:id="@id/user_addr_editName" android:background="#00000000" android:layout_width="0.0dip" android:layout_height="fill_parent" android:maxLength="10" android:layout_weight="3.0" android:inputType="textPersonName" />
+                </LinearLayout>
+                <include layout="@layout/in_divider" />
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/edit_height">
+                    <TextView android:textSize="16.0sp" android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/phone_num" android:layout_weight="1.0" />
+                    <EditText android:textColor="@color/txt_black" android:id="@id/user_addr_editPhone" android:background="@color/transparent" android:layout_width="0.0dip" android:layout_height="fill_parent" android:maxLength="11" android:layout_weight="3.0" android:inputType="phone" />
+                </LinearLayout>
+                <include layout="@layout/in_divider" />
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/edit_height">
+                    <TextView android:textSize="16.0sp" android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="地区" android:layout_weight="1.0" />
+                    <TextView android:textColor="#ff888888" android:gravity="center" android:id="@id/tv_region" android:background="@color/transparent" android:paddingRight="15.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="请选择地区" android:drawableRight="@mipmap/icon_arrow" android:layout_weight="3.0" />
+                </LinearLayout>
+                <include layout="@layout/in_divider" />
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/edit_height">
+                    <TextView android:textSize="16.0sp" android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/address_detail" android:layout_weight="1.0" />
+                    <EditText android:textColor="@color/txt_black" android:id="@id/user_detail_addr" android:background="@color/transparent" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="3.0" />
+                </LinearLayout>
+                <include layout="@layout/in_divider" />
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/edit_height">
+                    <CheckBox android:textSize="16.0sp" android:textColor="#ff666666" android:gravity="center_vertical" android:id="@id/select_cb" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:button="@drawable/checked_cbx_bg" android:text="    设置为默认地址" android:layout_centerVertical="true" />
+                </LinearLayout>
+            </LinearLayout>
+            <Button android:textSize="20.0sp" android:textColor="@color/white" android:id="@id/btnSave" android:padding="@dimen/margin_normal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_default" android:layout_marginTop="@dimen/margin_big" android:layout_marginRight="@dimen/margin_default" android:text="保存" style="@style/btnStyle" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

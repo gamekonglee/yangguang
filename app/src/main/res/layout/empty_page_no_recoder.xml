@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/background_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_gravity="center" android:id="@id/null_rl" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/iv" android:layout_width="150.0dip" android:layout_height="150.0dip" android:src="@drawable/emptypage_norecord" android:layout_centerInParent="true" />
+        <TextView android:textSize="14.0sp" android:textColor="#ffaaacad" android:id="@id/tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="36.0dip" android:text="您暂时没有记录" android:layout_below="@id/iv" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</RelativeLayout>

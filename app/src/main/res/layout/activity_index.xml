@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v7.widget.Toolbar android:id="@id/toolbar" android:background="@color/white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?actionBarSize">
+        <RelativeLayout android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <Button android:id="@id/topLeftBtn" android:background="@mipmap/ic_scan" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_centerVertical="true" />
+            <ImageView android:layout_width="wrap_content" android:layout_height="38.0dip" android:src="@mipmap/ic_bocang" android:layout_centerInParent="true" />
+            <Button android:id="@id/collectBtn" android:background="@mipmap/sousuo" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginRight="10.0dip" android:layout_alignParentRight="true" android:layout_centerInParent="true" android:layout_centerVertical="true" />
+            <Button android:id="@id/topRightBtn" android:background="@mipmap/ic_collect_press" android:visibility="gone" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginRight="10.0dip" android:layout_toLeftOf="@id/collectBtn" android:layout_alignTop="@id/collectBtn" android:layout_centerVertical="true" />
+            <TextView android:textSize="50.0px" android:textColor="#88ffffff" android:id="@id/deletetv" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:text="删除" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+    </android.support.v7.widget.Toolbar>
+    <LinearLayout android:id="@id/bottom_bar" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="55.0dip" android:layout_alignParentBottom="true">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/homeLl" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageButton android:id="@id/homeImgBtn" android:background="@mipmap/ic_home_press" android:clickable="false" android:layout_width="20.0dip" android:layout_height="20.0dip" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/theme_red" android:id="@id/homeTv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="首页" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/productLl" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageButton android:id="@id/productImgBtn" android:background="@mipmap/ic_product_normal" android:clickable="false" android:layout_width="20.0dip" android:layout_height="20.0dip" />
+            <TextView android:textSize="12.0sp" android:textColor="#ff555555" android:id="@id/productTv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="产品" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/matchLl" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageButton android:id="@id/matchImgBtn" android:background="@mipmap/ic_match_normal" android:clickable="false" android:layout_width="20.0dip" android:layout_height="20.0dip" />
+            <TextView android:textSize="12.0sp" android:textColor="#ff555555" android:id="@id/matchTv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="配灯" />
+        </LinearLayout>
+        <RelativeLayout android:orientation="vertical" android:id="@id/cartRl" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageButton android:id="@id/cartImgBtn" android:background="@mipmap/ic_cart_normal" android:clickable="false" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginTop="10.0dip" android:layout_centerHorizontal="true" />
+            <TextView android:textColor="#ffffffff" android:gravity="center_horizontal" android:id="@id/unReadTv" android:background="@drawable/bg_unread_count" android:visibility="gone" android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_marginLeft="-15.0px" android:text="0" android:layout_toRightOf="@id/cartImgBtn" />
+            <TextView android:textSize="12.0sp" android:textColor="#ff555555" android:id="@id/cartTv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="购物车" android:layout_below="@id/cartImgBtn" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/moreLl" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageButton android:id="@id/moreImgBtn" android:background="@mipmap/ic_more_normal" android:clickable="false" android:layout_width="20.0dip" android:layout_height="20.0dip" />
+            <TextView android:textSize="12.0sp" android:textColor="#ff555555" android:id="@id/moreTv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="更多" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:id="@id/divider" android:background="#ffcccccc" android:layout_width="fill_parent" android:layout_height="0.100000024dip" android:layout_above="@id/bottom_bar" />
+    <cc.bocang.bocang.view.MyViewpage android:layout_gravity="center" android:id="@id/viewPager" android:persistentDrawingCache="animation" android:layout_width="wrap_content" android:layout_height="wrap_content" android:flipInterval="30" android:layout_above="@id/divider" />
+</RelativeLayout>

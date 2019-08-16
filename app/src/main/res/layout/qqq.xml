@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.yjn.swipelistview.swipelistviewlibrary.widget.SwipeMenuListView android:id="@id/listView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:dividerHeight="1.0dip" />
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:background="#fff5f5f5" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="60.0dip">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <CheckBox android:id="@id/checkAll" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:button="@drawable/selector_checkbox" android:text="全选" />
+            <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/agiolv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/checkAll" android:layout_alignTop="@id/checkAll">
+                <TextView android:textSize="32.0px" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="总折扣：" />
+                <EditText android:gravity="center" android:id="@id/sumAgioTv" android:background="@drawable/number_input_et_bg" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:layout_width="50.0dip" android:layout_height="30.0dip" android:layout_marginLeft="10.0dip" android:hint=".." android:maxLength="2" android:inputType="number" />
+                <TextView android:textSize="50.0px" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="%" />
+                <TextView android:textSize="18.0sp" android:textColor="@android:color/white" android:gravity="center" android:id="@id/settle_tv" android:background="#ffff8000" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:clickable="true" android:layout_width="wrap_content" android:layout_height="40.0dip" android:text="去结算" android:layout_alignParentRight="true" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="18.0sp" android:textColor="@color/black" android:id="@id/sumTv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="合计:" android:layout_alignParentLeft="true" />
+            <TextView android:textSize="18.0sp" android:textColor="#fff33f3f" android:id="@id/money_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:text="￥ 0" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

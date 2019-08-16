@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/sceneFrameLayout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/sceneBgIv" android:background="@mipmap/diy_default" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+    </FrameLayout>
+    <RelativeLayout android:id="@id/diyContainerRl" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:background="#bb000000" android:layout_width="60.0dip" android:layout_height="fill_parent">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:onClick="back">
+                <ImageView android:background="@mipmap/icon_back" android:layout_width="20.0dip" android:layout_height="17.0dip" />
+                <TextView android:textSize="12.0sp" android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="返回" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/view_take_photo" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                <ImageView android:background="@mipmap/icon_shooting" android:layout_width="20.0dip" android:layout_height="20.0dip" />
+                <TextView android:textSize="12.0sp" android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="拍照" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/view_gallery" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                <ImageView android:background="@mipmap/icon_gallery" android:layout_width="20.0dip" android:layout_height="17.0dip" />
+                <TextView android:textSize="12.0sp" android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="相册" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/view_sc" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                <ImageView android:background="@mipmap/icon_gwc" android:layout_width="20.0dip" android:layout_height="17.0dip" />
+                <TextView android:textSize="12.0sp" android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="购物车" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/view_save" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                <ImageView android:background="@mipmap/icon_save" android:layout_width="20.0dip" android:layout_height="17.0dip" />
+                <TextView android:textSize="12.0sp" android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="保存" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/view_share" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                <ImageView android:background="@mipmap/icon_share" android:layout_width="20.0dip" android:layout_height="17.0dip" />
+                <TextView android:textSize="12.0sp" android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="分享" />
+            </LinearLayout>
+        </LinearLayout>
+        <ImageView android:id="@id/goBackBtn" android:visibility="gone" android:layout_width="45.0dip" android:layout_height="45.0dip" android:layout_marginLeft="15.0dip" android:layout_marginTop="6.0dip" android:src="@mipmap/ic_diy_back" android:onClick="back" />
+        <RelativeLayout android:gravity="center_vertical" android:id="@id/diyMenuContainerRl" android:background="@color/deep_transparent" android:layout_width="150.0dip" android:layout_height="fill_parent" android:layout_alignParentRight="true">
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/diyTabLl" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentRight="true">
+                <TextView android:textColor="#ffffffff" android:gravity="center" android:id="@id/diyProIv" android:background="@color/deep_transparent11" android:padding="10.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:src="@mipmap/ic_diy_pro" android:text="商品" android:layout_weight="1.0" />
+                <TextView android:textColor="#ffffffff" android:gravity="center" android:id="@id/diySceneIv" android:background="@color/deep_transparent22" android:padding="10.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:src="@mipmap/ic_diy_scene" android:text="场景" android:layout_weight="1.0" />
+                <ImageView android:id="@id/diyOtherIv" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:src="@mipmap/ic_diy_other" android:layout_weight="1.0" />
+                <ImageView android:id="@id/closeMenuIv" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:src="@mipmap/ic_close" android:layout_weight="1.0" android:onClick="close" />
+            </LinearLayout>
+            <FrameLayout android:id="@id/diyGridViewContainer" android:background="@color/deep_transparent11" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="45.0dip" android:layout_below="@id/diyTabLl" android:layout_alignParentLeft="true">
+                <com.lib.common.hxp.view.PullableGridView android:id="@id/diyGridView" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                <ProgressBar android:layout_gravity="center" android:id="@id/pd" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Base.Widget.AppCompat.ProgressBar" />
+            </FrameLayout>
+            <ListView android:id="@id/listView" android:visibility="gone" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toRightOf="@id/diyGridViewContainer" android:layout_below="@id/diyTabLl" />
+            <RelativeLayout android:id="@id/otherRl" android:background="#ff000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toRightOf="@id/diyGridViewContainer" android:layout_below="@id/diyTabLl">
+                <ImageView android:id="@id/cameraIv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:src="@mipmap/ic_diy_camera" />
+                <ImageView android:id="@id/albumIv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:src="@mipmap/ic_diy_album" android:layout_below="@id/cameraIv" />
+                <ImageView android:id="@id/diyShareIv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:src="@mipmap/ic_diy_share" android:layout_below="@id/albumIv" />
+            </RelativeLayout>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/add_data_ll" android:background="@color/deep_transparent22" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_alignParentBottom="true">
+                <ImageView android:layout_width="15.0dip" android:layout_height="15.0dip" android:src="@mipmap/add_icon" />
+                <TextView android:textColor="@color/white" android:gravity="center" android:id="@id/add_data_tv" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="5.0dip" android:text="选择产品" />
+            </LinearLayout>
+        </RelativeLayout>
+        <ImageView android:id="@id/gocarIv" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:src="@mipmap/jiarugouwuche1" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <ProgressBar android:layout_gravity="center" android:id="@id/pd2" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Base.Widget.AppCompat.ProgressBar" />
+</FrameLayout>

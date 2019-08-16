@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/whiteSmoke" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/imageViewRl" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+        <ImageView android:id="@id/imageView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/bg_default" android:layout_centerHorizontal="true" />
+        <ImageView android:id="@id/check_iv" android:visibility="gone" android:layout_width="105.0dip" android:layout_height="105.0dip" android:src="@mipmap/icon_design_product_select" android:scaleType="fitXY" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <TextView android:textSize="15.0sp" android:gravity="center" android:id="@id/textView" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="更多" android:layout_below="@id/imageViewRl" />
+</RelativeLayout>

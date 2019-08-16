@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="80.0dip" android:layout_height="60.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.0sp" android:textColor="#ff333333" android:gravity="center" android:id="@id/tv_name" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <View android:id="@id/view_selected" android:background="#ffe62129" android:layout_width="2.5dip" android:layout_height="20.0dip" android:layout_centerVertical="true" />
+</RelativeLayout>

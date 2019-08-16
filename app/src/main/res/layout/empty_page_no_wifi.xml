@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/background_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="162.0dip">
+        <ImageView android:id="@id/iv" android:layout_width="150.0dip" android:layout_height="150.0dip" android:src="@drawable/pic_nowifi" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="15.0sp" android:id="@id/tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="您的网络走丢啦~~" android:layout_below="@id/iv" android:layout_centerInParent="true" />
+        <Button android:textSize="15.0dip" android:textColor="@color/black" android:gravity="center" android:id="@id/refesh_btn" android:background="@drawable/bg_btn" android:layout_width="96.0dip" android:layout_height="32.0dip" android:layout_marginTop="30.0dip" android:text="刷新一下" android:layout_below="@id/tv" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</RelativeLayout>

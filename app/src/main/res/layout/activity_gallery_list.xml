@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@color/theme_red" android:layout_width="fill_parent" android:layout_height="50.0dip">
+        <ImageView android:background="@mipmap/fh" android:layout_width="11.0dip" android:layout_height="20.0dip" android:layout_marginLeft="15.0dip" android:layout_centerVertical="true" android:onClick="goBack" />
+        <TextView android:textSize="14.0sp" android:textColor="#ffffffff" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="40.0dip" android:text="品牌" android:layout_centerVertical="true" android:onClick="goBack" />
+    </RelativeLayout>
+    <astuetz.MyPagerSlidingTabStrip android:id="@id/tabstrip" android:background="#fff3f3f3" android:layout_width="fill_parent" android:layout_height="50.0dip" />
+    <android.support.v4.view.ViewPager android:id="@id/viewPager" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <GridView android:id="@id/gv_home_bottom" android:background="#fff3f3f3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:horizontalSpacing="5.0dip" android:verticalSpacing="5.0dip" android:numColumns="2" />
+</LinearLayout>

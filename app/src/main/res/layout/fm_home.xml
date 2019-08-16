@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.lib.common.hxp.view.PullToRefreshLayout android:id="@id/refresh_view" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/refresh_head" />
+    <com.lib.common.hxp.view.PullableScrollView android:id="@id/scrollView" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/ll_search" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="50.0dip">
+                <RelativeLayout android:background="@drawable/bg_corner_f3f3f3_2" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <ImageView android:background="@mipmap/nav_icon_search" android:layout_width="17.0dip" android:layout_height="17.0dip" android:layout_marginLeft="15.0dip" android:layout_centerVertical="true" />
+                    <TextView android:textSize="15.0sp" android:textColor="#ff666666" android:gravity="center_vertical" android:id="@id/et_search" android:background="@null" android:paddingLeft="10.0dip" android:layout_width="180.0dip" android:layout_height="fill_parent" android:layout_marginLeft="30.0dip" android:text="搜索商品、型号" />
+                    <ImageView android:id="@id/iv_scale" android:background="@mipmap/nav_icon_scan" android:layout_width="18.0dip" android:layout_height="17.0dip" android:layout_marginRight="15.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                </RelativeLayout>
+                <ImageView android:id="@id/iv_msg" android:background="@mipmap/nav_icon_message" android:layout_width="20.0dip" android:layout_height="18.0dip" android:layout_marginLeft="15.0dip" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/ll_top" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/ll_search">
+                <com.bigkoo.convenientbanner.ConvenientBanner android:id="@id/convenientBanner" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="200.0dip" android:layout_margin="15.0dip" />
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="105.0dip">
+                    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_brand_list" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                        <ImageView android:background="@mipmap/icon_brand_default" android:layout_width="45.0dip" android:layout_height="45.0dip" />
+                        <TextView android:textSize="13.0sp" android:textColor="#ff333333" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="品牌" />
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_news" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                        <ImageView android:background="@mipmap/icon_news_default" android:layout_width="45.0dip" android:layout_height="45.0dip" />
+                        <TextView android:textSize="13.0sp" android:textColor="#ff333333" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="新闻" />
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_programme" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                        <ImageView android:background="@mipmap/icon_plan_default" android:layout_width="45.0dip" android:layout_height="45.0dip" />
+                        <TextView android:textSize="13.0sp" android:textColor="#ff333333" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="方案库" />
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_diy" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                        <ImageView android:background="@mipmap/icon_pd_default" android:layout_width="45.0dip" android:layout_height="45.0dip" />
+                        <TextView android:textSize="13.0sp" android:textColor="#ff333333" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="配灯" />
+                    </LinearLayout>
+                </LinearLayout>
+                <View android:background="#fff3f3f3" android:layout_width="fill_parent" android:layout_height="10.0dip" />
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="50.0dip">
+                    <TextView android:textSize="17.0sp" android:textColor="#ff252525" android:layout_width="35.0dip" android:layout_height="wrap_content" android:layout_marginLeft="25.0dip" android:text="阳光动态" />
+                    <View android:layout_width="0.0dip" android:layout_height="50.0dip" android:layout_weight="1.0" />
+                    <TextSwitcher android:textSize="15.0sp" android:textColor="#ff444444" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/textSwitcher_title" android:padding="0.0dip" android:layout_width="200.0dip" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginRight="5.0dip" android:inAnimation="@anim/push_up_in" android:outAnimation="@anim/push_up_out" />
+                    <ImageView android:id="@id/iv_switcher" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginRight="30.0dip" />
+                </LinearLayout>
+                <View android:background="#fff3f3f3" android:layout_width="fill_parent" android:layout_height="10.0dip" />
+                <HorizontalScrollView android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="200.0dip">
+                    <LinearLayout android:orientation="horizontal" android:id="@id/ll_brand" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+                </HorizontalScrollView>
+                <RelativeLayout android:id="@id/optionRl" android:background="@color/colorPrimary" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_below="@id/ll_top">
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="1.0dip">
+                        <TextView android:textSize="17.0sp" android:textColor="@color/colorPrimary" android:gravity="center" android:id="@id/typeTv" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="类型" android:layout_weight="1.0" />
+                        <TextView android:textSize="17.0sp" android:textColor="#ff888888" android:gravity="center" android:id="@id/spaceTv" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="空间" android:layout_weight="1.0" />
+                        <TextView android:textSize="17.0sp" android:textColor="#ff888888" android:gravity="center" android:id="@id/styleTv" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="风格" android:layout_weight="1.0" />
+                    </LinearLayout>
+                    <ImageView android:id="@id/lineIv" android:background="@color/colorPrimary" android:layout_width="100.0dip" android:layout_height="4.0dip" android:layout_marginBottom="-20.0px" android:layout_alignParentBottom="true" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@id/gridViewRl" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="400.0dip" android:layout_below="@id/optionRl">
+                    <GridView android:id="@id/itemGridView" android:background="#ffffffff" android:padding="5.0dip" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:verticalSpacing="10.0dip" android:numColumns="4" />
+                </RelativeLayout>
+                <View android:background="#fff3f3f3" android:layout_width="fill_parent" android:layout_height="10.0dip" />
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="50.0dip">
+                    <TextView android:textSize="18.0sp" android:textColor="#ff333333" android:gravity="center" android:id="@id/tuijianTv" android:background="#00000000" android:layout_width="wrap_content" android:layout_height="40.0dip" android:layout_marginLeft="15.0dip" android:text="新品推荐" />
+                    <cc.bocang.bocang.view.TextViewPlus android:textSize="14.0sp" android:textColor="#ff666666" android:gravity="right" android:id="@id/tv_new_more" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="15.0dip" android:text="更多" android:drawableRight="@mipmap/icon_arrow" android:drawablePadding="5.0dip" android:layout_weight="1.0" app:right_height="12.0dip" app:right_width="7.0dip" />
+                </LinearLayout>
+                <GridView android:id="@id/priductGridView" android:background="#ffffffff" android:paddingLeft="15.0dip" android:paddingTop="15.0dip" android:paddingRight="15.0dip" android:layout_width="fill_parent" android:layout_height="390.0dip" android:horizontalSpacing="15.0dip" android:verticalSpacing="15.0dip" android:numColumns="3" android:layout_below="@id/tuijianTv" />
+                <ImageView android:background="@mipmap/img_home_2" android:layout_width="fill_parent" android:layout_height="90.0dip" />
+                <astuetz.MyPagerSlidingTabStrip android:id="@id/tabstrip" android:background="#fff3f3f3" android:layout_width="fill_parent" android:layout_height="50.0dip" />
+                <android.support.v4.view.ViewPager android:id="@id/viewPager" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                <com.lib.common.hxp.view.GridViewForScrollView android:id="@id/gv_home_bottom" android:background="#fff3f3f3" android:layout_width="fill_parent" android:layout_height="600.0dip" android:horizontalSpacing="10.0dip" android:verticalSpacing="10.0dip" android:numColumns="2" />
+            </LinearLayout>
+        </RelativeLayout>
+    </com.lib.common.hxp.view.PullableScrollView>
+    <include layout="@layout/load_more" />
+</com.lib.common.hxp.view.PullToRefreshLayout>

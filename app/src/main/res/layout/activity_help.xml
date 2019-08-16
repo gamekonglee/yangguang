@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v7.widget.Toolbar android:id="@id/toolbar" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?actionBarSize">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <Button android:textColor="@color/black" android:id="@id/topLeftBtn" android:background="@drawable/selector_back_btn" android:layout_width="60.0dip" android:layout_height="40.0dip" android:text="返回" android:layout_centerVertical="true" android:onClick="goBack" />
+            <ImageView android:layout_width="wrap_content" android:layout_height="38.0dip" android:src="@mipmap/ic_bocang" android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </android.support.v7.widget.Toolbar>
+    <cc.bocang.bocang.view.FlexiScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@mipmap/help_01" android:scaleType="fitXY" />
+            <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@mipmap/help_02" android:scaleType="fitXY" />
+            <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@mipmap/help_03" android:scaleType="fitXY" />
+            <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@mipmap/help_04" android:scaleType="fitXY" />
+            <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@mipmap/help_05" android:scaleType="fitXY" />
+            <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@mipmap/help_06" android:scaleType="fitXY" />
+            <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@mipmap/help_07" android:scaleType="fitXY" />
+            <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@mipmap/help_08" android:scaleType="fitXY" />
+            <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@mipmap/help_09" android:scaleType="fitXY" />
+        </LinearLayout>
+    </cc.bocang.bocang.view.FlexiScrollView>
+</LinearLayout>

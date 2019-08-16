@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/login_form" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="30.0dip">
+            <ImageView android:background="@mipmap/ic_bocang" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="40.0dip" />
+            <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_width="35.0dip" android:layout_height="35.0dip" android:src="@mipmap/zhuceyonghuming" />
+                <EditText android:id="@id/distributorEt" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:hint="经销商名称" />
+            </LinearLayout>
+            <View android:background="#ffdddddd" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="25.0dip" android:layout_marginTop="5.0dip" />
+            <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_width="35.0dip" android:layout_height="35.0dip" android:src="@mipmap/zhucedizhi" />
+                <EditText android:id="@id/addressEv" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:hint="经销商地址" />
+            </LinearLayout>
+            <View android:background="#ffdddddd" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="25.0dip" android:layout_marginTop="5.0dip" />
+            <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_width="35.0dip" android:layout_height="35.0dip" android:src="@mipmap/zhuceshouji" />
+                <EditText android:id="@id/phoneEv" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:hint="手机号码" android:inputType="phone" />
+            </LinearLayout>
+            <View android:background="#ffdddddd" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="25.0dip" android:layout_marginTop="5.0dip" />
+            <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_width="35.0dip" android:layout_height="35.0dip" android:src="@mipmap/zhuceyaoqingma" />
+                <EditText android:id="@id/inviteCodeEv" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:hint="邀请码" />
+            </LinearLayout>
+            <View android:background="#ffdddddd" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="25.0dip" android:layout_marginTop="5.0dip" />
+            <Button android:textSize="15.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:id="@id/registerBtn" android:background="@drawable/btn_bg_corner_theme_red_5" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="注册" />
+        </LinearLayout>
+    </ScrollView>
+    <TextView android:textSize="14.0sp" android:gravity="center" android:layout_gravity="bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="技术支持：中山市铂仓网络科技有限公司\n" />
+    <ProgressBar android:layout_gravity="center" android:id="@id/pd" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Base.Widget.AppCompat.ProgressBar" />
+</FrameLayout>

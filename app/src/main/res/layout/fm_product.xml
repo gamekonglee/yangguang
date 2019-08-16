@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:background="#fff3f3f3" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.baiiu.filter.DropDownMenu android:id="@id/dropDownMenu" android:background="#fff3f3f3" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.lib.common.hxp.view.PullToRefreshLayout android:id="@id/mFilterContentView" android:background="#fff3f3f3" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <include layout="@layout/refresh_head" />
+            <com.lib.common.hxp.view.PullableGridView android:id="@id/gridView" android:background="#fff3f3f3" android:paddingLeft="15.0dip" android:paddingTop="5.0dip" android:paddingRight="15.0dip" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:horizontalSpacing="15.0dip" android:verticalSpacing="15.0dip" android:numColumns="2" />
+            <include layout="@layout/load_more" />
+        </com.lib.common.hxp.view.PullToRefreshLayout>
+    </com.baiiu.filter.DropDownMenu>
+    <ProgressBar android:layout_gravity="center_horizontal" android:id="@id/pd" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Base.Widget.AppCompat.ProgressBar" />
+</FrameLayout>

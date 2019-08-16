@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v7.widget.Toolbar android:id="@id/toolbar" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?actionBarSize">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <Button android:textColor="@color/black" android:id="@id/topLeftBtn" android:background="@drawable/selector_back_btn" android:layout_width="60.0dip" android:layout_height="40.0dip" android:text="返回" android:layout_centerVertical="true" />
+            <ImageView android:layout_width="wrap_content" android:layout_height="38.0dip" android:src="@mipmap/ic_bocang" android:layout_centerInParent="true" />
+            <Button android:id="@id/topRightBtn" android:background="@mipmap/sousuo" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginRight="10.0dip" android:layout_alignParentRight="true" android:layout_centerInParent="true" android:layout_centerVertical="true" />
+            <Button android:id="@id/collectBtn" android:background="@mipmap/ic_collect_1" android:visibility="visible" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginRight="10.0dip" android:layout_toLeftOf="@id/topRightBtn" android:layout_alignTop="@id/topRightBtn" android:layout_centerVertical="true" />
+        </RelativeLayout>
+    </android.support.v7.widget.Toolbar>
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.baiiu.filter.DropDownMenu android:id="@id/dropDownMenu" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.lib.common.hxp.view.PullToRefreshLayout android:id="@id/mFilterContentView" android:background="@mipmap/background" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <include layout="@layout/refresh_head" />
+                <com.lib.common.hxp.view.PullableGridView android:id="@id/gridView" android:background="@android:color/transparent" android:paddingLeft="15.0dip" android:paddingTop="5.0dip" android:paddingRight="15.0dip" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:horizontalSpacing="15.0dip" android:verticalSpacing="15.0dip" android:numColumns="2" />
+                <include layout="@layout/load_more" />
+            </com.lib.common.hxp.view.PullToRefreshLayout>
+        </com.baiiu.filter.DropDownMenu>
+        <ProgressBar android:layout_gravity="center_horizontal" android:id="@id/pd" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Base.Widget.AppCompat.ProgressBar" />
+    </FrameLayout>
+</LinearLayout>

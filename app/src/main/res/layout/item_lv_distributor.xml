@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="center" android:id="@id/numTv" android:layout_width="0.0dip" android:layout_height="40.0dip" android:text="00" android:layout_weight="0.4" />
+    <TextView android:gravity="center" android:id="@id/nameTv" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="用户名" android:layout_weight="0.8" />
+    <TextView android:gravity="center" android:id="@id/phoneTv" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="手机" android:layout_weight="1.0" />
+    <TextView android:gravity="center" android:id="@id/dateTv" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="日期" android:layout_weight="1.0" />
+    <FrameLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.6">
+        <TextView android:gravity="center" android:layout_gravity="center" android:id="@id/checkedTv" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="审核" />
+        <com.lib.common.hxp.view.EaseSwitchButton android:layout_gravity="center" android:id="@id/switchBtn" android:layout_width="40.0dip" android:layout_height="25.0dip" />
+    </FrameLayout>
+</LinearLayout>

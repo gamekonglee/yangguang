@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@color/theme_red" android:layout_width="fill_parent" android:layout_height="45.0dip">
+        <RelativeLayout android:layout_width="50.0dip" android:layout_height="fill_parent" android:onClick="goBack">
+            <ImageView android:background="@mipmap/nav_icon_back" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginLeft="15.0dip" android:layout_centerVertical="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <TextView android:textSize="15.0dip" android:textColor="#ff333333" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="30.0dip" android:text="标题" />
+            <ImageView android:id="@id/iv_img" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <WebView android:textColor="#ff666666" android:id="@id/webview_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lineSpacingExtra="5.0dip" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

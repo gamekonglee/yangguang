@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.baiiu.filter.DropDownMenu android:id="@id/dropDownMenu" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.lib.common.hxp.view.PullToRefreshLayout android:id="@id/mFilterContentView" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <include layout="@layout/refresh_head" />
+            <com.lib.common.hxp.view.PullableGridView android:id="@id/gridView" android:paddingLeft="15.0dip" android:paddingTop="5.0dip" android:paddingRight="15.0dip" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:horizontalSpacing="15.0dip" android:verticalSpacing="15.0dip" android:numColumns="2" />
+            <include layout="@layout/load_more" />
+        </com.lib.common.hxp.view.PullToRefreshLayout>
+    </com.baiiu.filter.DropDownMenu>
+    <ProgressBar android:layout_gravity="center_horizontal" android:id="@id/pd" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Base.Widget.AppCompat.ProgressBar" />
+    <RelativeLayout android:layout_gravity="bottom|center|right" android:orientation="horizontal" android:id="@id/select_rl" android:background="@mipmap/icon_select" android:visibility="gone" android:layout_width="150.0dip" android:layout_height="50.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="10.0dip">
+        <TextView android:textColor="@color/white" android:gravity="center_vertical" android:visibility="visible" android:layout_width="150.0dip" android:layout_height="50.0dip" android:layout_marginLeft="20.0dip" android:text="开始做方案" />
+        <TextView android:textColor="@color/white" android:gravity="center" android:id="@id/select_num_tv" android:paddingLeft="100.0dip" android:visibility="visible" android:layout_width="150.0dip" android:layout_height="50.0dip" android:text="0" />
+    </RelativeLayout>
+</FrameLayout>

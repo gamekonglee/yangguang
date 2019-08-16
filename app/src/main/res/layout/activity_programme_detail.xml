@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="50.0dip">
+        <ImageView android:background="@mipmap/nav_icon_return" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_centerVertical="true" android:onClick="goBack" />
+        <TextView android:textSize="18.0sp" android:textColor="#ff333333" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="方案详情" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <View android:background="#ffdddddd" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <RelativeLayout android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip"
+      xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+        <RelativeLayout android:id="@id/imageViewRl" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+            <ImageView android:id="@id/imageView" android:layout_width="wrap_content" android:layout_height="200.0dip" android:src="@mipmap/bg_default" android:scaleType="centerCrop" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <TextView android:textSize="16.0sp" android:textColor="#ff333333" android:gravity="center_vertical" android:id="@id/textView" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:text="更多" android:layout_below="@id/imageViewRl" />
+        <LinearLayout android:orientation="horizontal" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/textView">
+            <TextView android:textSize="14.0sp" android:textColor="#ff666666" android:id="@id/tv_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:text="" />
+            <View android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_weight="1.0" />
+            <cc.bocang.bocang.view.TextViewPlus android:textSize="13.0sp" android:textColor="#ff666666" android:gravity="center" android:id="@id/tv_share" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="30.0dip" android:text="分享" android:drawableLeft="@mipmap/page_icon_share" android:drawablePadding="5.0dip" app:left_height="15.0dip" app:left_width="12.0dip" />
+        </LinearLayout>
+    </RelativeLayout>
+    <View android:background="#fff3f3f3" android:layout_width="fill_parent" android:layout_height="10.0dip" />
+    <ListView android:id="@id/lv_list" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:installLocation="auto" package="cc.bocang.bocang"
+>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <application android:allowBackup="true" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:name="cc.bocang.bocang.global.MyApplication" android:supportsRtl="true" android:theme="@style/AppTheme">
+        <service android:enabled="true" android:name="cc.bocang.bocang.service.UpdateApkService"/>
+        <activity android:name="cc.bocang.bocang.ui.OpenScreenActivity" android:screenOrientation="portrait" android:theme="@style/NoTitleTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="cc.bocang.bocang.ui.RegisterActivity" android:screenOrientation="portrait" android:theme="@style/NoTitleTheme"/>
+        <activity android:launchMode="singleTask" android:name="cc.bocang.bocang.ui.IndexActivity" android:screenOrientation="portrait" android:theme="@style/NoTitleTheme"/>
+        <activity android:name="cc.bocang.bocang.ui.ProDetailActivity" android:screenOrientation="portrait" android:theme="@style/NoTitleTheme"/>
+        <activity android:launchMode="singleTop" android:name="cc.bocang.bocang.ui.DiyActivity" android:screenOrientation="landscape" android:theme="@style/NoTitleTheme"/>
+        <activity android:name="cc.bocang.bocang.ui.UserAddressActivity" android:screenOrientation="portrait" android:theme="@style/NoTitleTheme"/>
+        <activity android:name="cc.bocang.bocang.ui.ContainerActivity" android:screenOrientation="portrait" android:theme="@style/NoTitleTheme"/>
+        <activity android:name="cc.bocang.bocang.ui.CompanyProfileActivity" android:screenOrientation="portrait" android:theme="@style/NoTitleTheme"/>
+        <activity android:name="cc.bocang.bocang.ui.UserAddressAddActivity" android:screenOrientation="portrait" android:theme="@style/NoTitleTheme"/>
+        <activity android:name="cc.bocang.bocang.ui.SimpleScannerActivity" android:screenOrientation="portrait" android:theme="@style/NoTitleTheme"/>
+        <activity android:name="cc.bocang.bocang.ui.ScannerWebActivity" android:screenOrientation="portrait" android:theme="@style/NoTitleTheme"/>
+        <activity android:name="cc.bocang.bocang.ui.SearchActivity" android:screenOrientation="portrait" android:theme="@style/NoTitleTheme"/>
+        <activity android:name="cc.bocang.bocang.ui.OrderActivity" android:screenOrientation="portrait" android:theme="@style/NoTitleTheme"/>
+        <activity android:name="cc.bocang.bocang.ui.HelpActivity" android:screenOrientation="portrait" android:theme="@style/NoTitleTheme"/>
+        <activity android:name="cc.bocang.bocang.ui.UpdateMultipleActivity" android:screenOrientation="portrait" android:theme="@style/NoTitleTheme"/>
+        <activity android:name="cc.bocang.bocang.ui.UpdateProductActivity" android:screenOrientation="portrait" android:theme="@style/NoTitleTheme"/>
+        <activity android:name="cc.bocang.bocang.ui.NewProductActivity" android:screenOrientation="portrait" android:theme="@style/NoTitleTheme"/>
+        <activity android:name="cc.bocang.bocang.ui.TwoBarCodeActivity" android:screenOrientation="portrait" android:theme="@style/NoTitleTheme"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.mob.tools.MobUIShell" android:screenOrientation="portrait" android:theme="@android:style/Theme.Translucent.NoTitleBar" android:windowSoftInputMode="adjustResize|stateHidden">
+            <intent-filter>
+                <data android:scheme="tencent100371282"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="cc.bocang.bocang.ui.NewsDetailActivity" android:screenOrientation="portrait" android:theme="@style/NoTitleTheme"/>
+        <activity android:name="cc.bocang.bocang.ui.SelectGoodsActivity" android:screenOrientation="portrait" android:theme="@style/NoTitleTheme"/>
+        <activity android:name="cc.bocang.bocang.ui.SelectSceneActivity" android:screenOrientation="portrait" android:theme="@style/NoTitleTheme"/>
+        <activity android:name="cc.bocang.bocang.ui.ProgrammeActivity" android:screenOrientation="portrait" android:theme="@style/NoTitleTheme"/>
+        <activity android:name="cc.bocang.bocang.ui.ProgrammeDetailActivity" android:screenOrientation="portrait" android:theme="@style/NoTitleTheme"/>
+        <activity android:name="cc.bocang.bocang.ui.BrandListActivity" android:screenOrientation="portrait" android:theme="@style/NoTitleTheme"/>
+        <activity android:name="cc.bocang.bocang.ui.WebViewActivity" android:screenOrientation="portrait" android:theme="@style/NoTitleTheme"/>
+        <activity android:name="cc.bocang.bocang.ui.BrandPlayActivity" android:screenOrientation="portrait" android:theme="@style/NoTitleTheme"/>
+        <activity android:name="cc.bocang.bocang.ui.GalleryListActivity" android:screenOrientation="portrait" android:theme="@style/NoTitleTheme"/>
+        <activity android:name="cc.bocang.bocang.ui.ImageDetailActivity" android:screenOrientation="landscape" android:theme="@style/NoTitleTheme"/>
+        <activity android:name="cc.bocang.bocang.ui.NewsListActivity" android:screenOrientation="portrait" android:theme="@style/NoTitleTheme"/>
+        <activity android:name="cc.bocang.bocang.ui.CollectActivity" android:screenOrientation="portrait" android:theme="@style/NoTitleTheme"/>
+        <activity android:name="cc.bocang.bocang.ui.SettingActivity" android:screenOrientation="portrait" android:theme="@style/NoTitleTheme"/>
+    </application>
+</manifest>

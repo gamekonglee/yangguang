@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/imageView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/type_7" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="15.0sp" android:textColor="@color/black" android:id="@id/textView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="更多" android:layout_below="@id/imageView" android:layout_centerHorizontal="true" />
+</RelativeLayout>
