@@ -1,2 +1,348 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
+
+    <item
+        jar="/Users/gamekonglee/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3.1/ecb6e1f8e4b0e84c4b886c2f14a1500caf309757/gson-2.3.1.jar"
+        jumboMode="false"
+        revision="25.0.3"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="/Users/gamekonglee/Downloads/GkleeProject/yangguang/app/build/intermediates/pre-dexed/debug/gson-2.3.1_7cc08c5cab77afaafcaebf1eab176e4fa03b706d.jar" />
+    </item>
+    <item
+        jar="/Users/gamekonglee/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit/retrofit/2.0.0-beta2/880d9e0997b2d1bfc98e0d121ced33ee5d04aac4/retrofit-2.0.0-beta2.jar"
+        jumboMode="false"
+        revision="25.0.3"
+        sha1="880d9e0997b2d1bfc98e0d121ced33ee5d04aac4">
+        <dex dex="/Users/gamekonglee/Downloads/GkleeProject/yangguang/app/build/intermediates/pre-dexed/debug/retrofit-2.0.0-beta2_c405fadb8912d01d9c46f2f937a4a66fc7962295.jar" />
+    </item>
+    <item
+        jar="/Users/gamekonglee/Downloads/GkleeProject/yangguang/app/build/intermediates/exploded-aar/yangguang/common/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.3"
+        sha1="219e1f3df756a1f9efa39aca8ca1c15ac6c589cd">
+        <dex dex="/Users/gamekonglee/Downloads/GkleeProject/yangguang/app/build/intermediates/pre-dexed/debug/yangguang-common-unspecified_b2d251cea81e8b9bd31213e29ef4fb23c00c8b65.jar" />
+    </item>
+    <item
+        jar="/Users/gamekonglee/Downloads/GkleeProject/yangguang/app/build/intermediates/exploded-aar/picasso-2.5.2.3/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.3"
+        sha1="eadacfc08e9f764ff0c38dccfa8d6872822e271a">
+        <dex dex="/Users/gamekonglee/Downloads/GkleeProject/yangguang/app/build/intermediates/pre-dexed/debug/intermediates-exploded-aar-picasso-2.5.2.3_b0e045ccd6d730193933b84c2f8247f115f942ea.jar" />
+    </item>
+    <item
+        jar="/Users/gamekonglee/Downloads/GkleeProject/yangguang/app/libs/eventbus-3.0.0.jar"
+        jumboMode="false"
+        revision="25.0.3"
+        sha1="ddd99896e9569eaababbe81b35d80e1b91c4ad85">
+        <dex dex="/Users/gamekonglee/Downloads/GkleeProject/yangguang/app/build/intermediates/pre-dexed/debug/eventbus-3.0.0_c8f62cdaf7985339eef951869f3284c071637b45.jar" />
+    </item>
+    <item
+        jar="/Users/gamekonglee/Downloads/GkleeProject/yangguang/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.3"
+        sha1="a0b5d60246cd9d4f3f2443611b3b4c25265840b5">
+        <dex dex="/Users/gamekonglee/Downloads/GkleeProject/yangguang/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-23.3.0_2a67c883a1ecb03cfbc24d4d29e178c75178c278.jar" />
+    </item>
+    <item
+        jar="/Users/gamekonglee/Downloads/GkleeProject/yangguang/app/build/intermediates/exploded-aar/io.reactivex/rxandroid/1.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.3"
+        sha1="d4c4b83de2f6412072d2a29b1b7a5b03edaad5ff">
+        <dex dex="/Users/gamekonglee/Downloads/GkleeProject/yangguang/app/build/intermediates/pre-dexed/debug/io.reactivex-rxandroid-1.1.0_df914afa3160d7226c256b0dcb652507c064d49d.jar" />
+    </item>
+    <item
+        jar="/Users/gamekonglee/Downloads/GkleeProject/yangguang/app/build/intermediates/exploded-aar/me.dm7.barcodescanner/zxing/1.9/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.3"
+        sha1="760ff0a866a9b3b7fe4a91cfe6439d9dc93cea7c">
+        <dex dex="/Users/gamekonglee/Downloads/GkleeProject/yangguang/app/build/intermediates/pre-dexed/debug/me.dm7.barcodescanner-zxing-1.9_cdf895e8b6bb09963799c84665fcd109d7ac7409.jar" />
+    </item>
+    <item
+        jar="/Users/gamekonglee/Downloads/GkleeProject/yangguang/app/build/intermediates/exploded-aar/com.yanzhenjie.nohttp/okhttp/1.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.3"
+        sha1="d4d54db938b3aeb4d15accccfe979af63e03d48e">
+        <dex dex="/Users/gamekonglee/Downloads/GkleeProject/yangguang/app/build/intermediates/pre-dexed/debug/com.yanzhenjie.nohttp-okhttp-1.1.1_1bf3ac546abd0c8403e132860f0bf1e3faaa771f.jar" />
+    </item>
+    <item
+        jar="/Users/gamekonglee/Downloads/GkleeProject/yangguang/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/jars/libs/internal_impl-23.3.0.jar"
+        jumboMode="false"
+        revision="25.0.3"
+        sha1="4da5a4d697d32497c6f85567a5112e62fdfd0676">
+        <dex dex="/Users/gamekonglee/Downloads/GkleeProject/yangguang/app/build/intermediates/pre-dexed/debug/internal_impl-23.3.0_f648f2c2a5431490d3f49b4dce964fd6f634ace9.jar" />
+    </item>
+    <item
+        jar="/Users/gamekonglee/Downloads/GkleeProject/yangguang/app/libs/universal-image-loader-1.9.4.jar"
+        jumboMode="false"
+        revision="25.0.3"
+        sha1="dd9eeb557650c4ad7394df23f0f5cf27a7cfc697">
+        <dex dex="/Users/gamekonglee/Downloads/GkleeProject/yangguang/app/build/intermediates/pre-dexed/debug/universal-image-loader-1.9.4_1c01f8b1a1d9c94fd0e16bb7dbc2232f74a45fb0.jar" />
+    </item>
+    <item
+        jar="/Users/gamekonglee/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.6.0/3f9b16b774f2c36cfd86dd2053d0b3059531dacc/okhttp-urlconnection-3.6.0.jar"
+        jumboMode="false"
+        revision="25.0.3"
+        sha1="3f9b16b774f2c36cfd86dd2053d0b3059531dacc">
+        <dex dex="/Users/gamekonglee/Downloads/GkleeProject/yangguang/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.6.0_2c8cf352d9febaa116fae7f6dbadbde9056d2863.jar" />
+    </item>
+    <item
+        jar="/Users/gamekonglee/Downloads/GkleeProject/yangguang/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.3"
+        sha1="1b8e03daaa43fb0a4cd57e378167c2fd70454c1e">
+        <dex dex="/Users/gamekonglee/Downloads/GkleeProject/yangguang/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.3.0_6efc7832bb167e0d53769a6eb384365381d916f5.jar" />
+    </item>
+    <item
+        jar="/Users/gamekonglee/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/23.3.0/db7791d75a07fef9844d06236c1c59ba7bf6997c/support-annotations-23.3.0.jar"
+        jumboMode="false"
+        revision="25.0.3"
+        sha1="db7791d75a07fef9844d06236c1c59ba7bf6997c">
+        <dex dex="/Users/gamekonglee/Downloads/GkleeProject/yangguang/app/build/intermediates/pre-dexed/debug/support-annotations-23.3.0_8df03d964cb7a7afca264826ad43e32b3e94ce22.jar" />
+    </item>
+    <item
+        jar="/Users/gamekonglee/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.6.0/69edde9fc4b01c9fd51d25b83428837478c27254/okhttp-3.6.0.jar"
+        jumboMode="false"
+        revision="25.0.3"
+        sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
+        <dex dex="/Users/gamekonglee/Downloads/GkleeProject/yangguang/app/build/intermediates/pre-dexed/debug/okhttp-3.6.0_7bac17aa9f60dcae402df289a42744c116891de1.jar" />
+    </item>
+    <item
+        jar="/Users/gamekonglee/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit/converter-gson/2.0.0-beta2/392c3d09e0f5e7087544093cc0cb23bb9c7af5fa/converter-gson-2.0.0-beta2.jar"
+        jumboMode="false"
+        revision="25.0.3"
+        sha1="392c3d09e0f5e7087544093cc0cb23bb9c7af5fa">
+        <dex dex="/Users/gamekonglee/Downloads/GkleeProject/yangguang/app/build/intermediates/pre-dexed/debug/converter-gson-2.0.0-beta2_a3d04c8d83002502aad56138b1e090131888429f.jar" />
+    </item>
+    <item
+        jar="/Users/gamekonglee/Downloads/GkleeProject/yangguang/app/build/intermediates/exploded-aar/cn.qqtheme.framework/WheelPicker/1.5.6.20190131/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.3"
+        sha1="f6be64ac173669878ad47b644c5120f473648822">
+        <dex dex="/Users/gamekonglee/Downloads/GkleeProject/yangguang/app/build/intermediates/pre-dexed/debug/cn.qqtheme.framework-WheelPicker-1.5.6.20190131_8e3436f5a96ac4bc09a79fbc8acfc2c095cfedb2.jar" />
+    </item>
+    <item
+        jar="/Users/gamekonglee/.gradle/caches/modules-2/files-2.1/com.alibaba/fastjson/1.2.18/68f20ee257e46dcb5f003862b471bbf36fba58da/fastjson-1.2.18.jar"
+        jumboMode="false"
+        revision="25.0.3"
+        sha1="68f20ee257e46dcb5f003862b471bbf36fba58da">
+        <dex dex="/Users/gamekonglee/Downloads/GkleeProject/yangguang/app/build/intermediates/pre-dexed/debug/fastjson-1.2.18_7a16966f1722a500334709187043ee75d961d674.jar" />
+    </item>
+    <item
+        jar="/Users/gamekonglee/Downloads/GkleeProject/yangguang/app/build/intermediates/exploded-aar/me.dm7.barcodescanner/core/1.9/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.3"
+        sha1="ceda0650ec225b9c0143ed8ff1c010d4e621a423">
+        <dex dex="/Users/gamekonglee/Downloads/GkleeProject/yangguang/app/build/intermediates/pre-dexed/debug/me.dm7.barcodescanner-core-1.9_af0f5fc3c628550bce4e3f4d0444366af2bc154b.jar" />
+    </item>
+    <item
+        jar="/Users/gamekonglee/Downloads/GkleeProject/yangguang/app/libs/MobCommons-2016.0830.1940.jar"
+        jumboMode="false"
+        revision="25.0.3"
+        sha1="ca36dc249a46648f8c8f53ad5ee4a935e80956a8">
+        <dex dex="/Users/gamekonglee/Downloads/GkleeProject/yangguang/app/build/intermediates/pre-dexed/debug/MobCommons-2016.0830.1940_fbedb754dfc5ed2a00f1eddb34aadf603511d3cf.jar" />
+    </item>
+    <item
+        jar="/Users/gamekonglee/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.21/139535a69a4239db087de9bab0bee568bf8e0b70/slf4j-api-1.7.21.jar"
+        jumboMode="false"
+        revision="25.0.3"
+        sha1="139535a69a4239db087de9bab0bee568bf8e0b70">
+        <dex dex="/Users/gamekonglee/Downloads/GkleeProject/yangguang/app/build/intermediates/pre-dexed/debug/slf4j-api-1.7.21_b4ed04d99bae6be3828dcbdbb791a87436a52ad9.jar" />
+    </item>
+    <item
+        jar="/Users/gamekonglee/Downloads/GkleeProject/yangguang/app/build/intermediates/exploded-aar/yangguang/swipelistviewlibrary/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.3"
+        sha1="5cadbd9a7c36e057a98e8a837fa7afe6dbb652c6">
+        <dex dex="/Users/gamekonglee/Downloads/GkleeProject/yangguang/app/build/intermediates/pre-dexed/debug/yangguang-swipelistviewlibrary-unspecified_440b6dd4b9b72e71da353e705c1b339b26a49e7a.jar" />
+    </item>
+    <item
+        jar="/Users/gamekonglee/Downloads/GkleeProject/yangguang/app/build/intermediates/exploded-aar/com.shuyu/GSYVideoPlayer/1.6.5/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.3"
+        sha1="55b1594092c757a77a051336a426090a53215eb8">
+        <dex dex="/Users/gamekonglee/Downloads/GkleeProject/yangguang/app/build/intermediates/pre-dexed/debug/com.shuyu-GSYVideoPlayer-1.6.5_e2d92daf91155f525d6fc3a2ce7616459198de8b.jar" />
+    </item>
+    <item
+        jar="/Users/gamekonglee/Downloads/GkleeProject/yangguang/app/build/intermediates/exploded-aar/com.danikula/videocache/2.6.4/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.3"
+        sha1="819e8849f12e422f2d9e9d8f2d8bc8f0d28a9d55">
+        <dex dex="/Users/gamekonglee/Downloads/GkleeProject/yangguang/app/build/intermediates/pre-dexed/debug/com.danikula-videocache-2.6.4_01f5593055287e16b09c575d071e742ddeb375e9.jar" />
+    </item>
+    <item
+        jar="/Users/gamekonglee/Downloads/GkleeProject/yangguang/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.3"
+        sha1="8a034dd16c0dfd75fe86c52c2cd581592acc684a">
+        <dex dex="/Users/gamekonglee/Downloads/GkleeProject/yangguang/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.3.0_a747af16295da4f2d3724275d435603fa2b8b0ea.jar" />
+    </item>
+    <item
+        jar="/Users/gamekonglee/Downloads/GkleeProject/yangguang/app/build/intermediates/exploded-aar/AkHttp/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.3"
+        sha1="a04f8fd8bea48bc9357d6e6acb3ca8a856c9afe1">
+        <dex dex="/Users/gamekonglee/Downloads/GkleeProject/yangguang/app/build/intermediates/pre-dexed/debug/intermediates-exploded-aar-AkHttp_72f2764d7e80477d8ef324c879f54544ef57e666.jar" />
+    </item>
+    <item
+        jar="/Users/gamekonglee/Downloads/GkleeProject/yangguang/app/build/intermediates/exploded-aar/com.yanzhenjie.nohttp/nohttp/1.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.3"
+        sha1="131ba28165334cd7b63ec6b569446f3b289a3010">
+        <dex dex="/Users/gamekonglee/Downloads/GkleeProject/yangguang/app/build/intermediates/pre-dexed/debug/com.yanzhenjie.nohttp-nohttp-1.1.1_355de6daa4eb673738a3e698e398d4a0b8201e75.jar" />
+    </item>
+    <item
+        jar="/Users/gamekonglee/.gradle/caches/modules-2/files-2.1/com.tencent.mm.opensdk/wechat-sdk-android-with-mta/5.4.0/8bef9a62e35f2c73bb891dd7f383d7baad86db14/wechat-sdk-android-with-mta-5.4.0.jar"
+        jumboMode="false"
+        revision="25.0.3"
+        sha1="8bef9a62e35f2c73bb891dd7f383d7baad86db14">
+        <dex dex="/Users/gamekonglee/Downloads/GkleeProject/yangguang/app/build/intermediates/pre-dexed/debug/wechat-sdk-android-with-mta-5.4.0_80731edac90258b8fcf51ececaad1bbef50ac6d5.jar" />
+    </item>
+    <item
+        jar="/Users/gamekonglee/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.5.0/4de2b4ed3445c37ec1720a7d214712e845a24636/okhttp-2.5.0.jar"
+        jumboMode="false"
+        revision="25.0.3"
+        sha1="4de2b4ed3445c37ec1720a7d214712e845a24636">
+        <dex dex="/Users/gamekonglee/Downloads/GkleeProject/yangguang/app/build/intermediates/pre-dexed/debug/okhttp-2.5.0_d115f240559619a1a0cc1b45526d5c3f0f3b4025.jar" />
+    </item>
+    <item
+        jar="/Users/gamekonglee/Downloads/GkleeProject/yangguang/app/build/intermediates/exploded-aar/tv.danmaku.ijk.media/ijkplayer-exo/0.7.9/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.3"
+        sha1="1045d590b8f136e44e6e45990b9843c42cf170be">
+        <dex dex="/Users/gamekonglee/Downloads/GkleeProject/yangguang/app/build/intermediates/pre-dexed/debug/tv.danmaku.ijk.media-ijkplayer-exo-0.7.9_77c8e25555f0297db5ec34f4b4c8db5d9d38bd6f.jar" />
+    </item>
+    <item
+        jar="/Users/gamekonglee/Downloads/GkleeProject/yangguang/app/build/intermediates/exploded-aar/com.bm.photoview/library/1.4.1/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.3"
+        sha1="772452261af8eb9c1df9ae71fb621afe393277da">
+        <dex dex="/Users/gamekonglee/Downloads/GkleeProject/yangguang/app/build/intermediates/pre-dexed/debug/com.bm.photoview-library-1.4.1_4aa9e1137914f812f64cd3498eb5cebd21490845.jar" />
+    </item>
+    <item
+        jar="/Users/gamekonglee/Downloads/GkleeProject/yangguang/app/build/intermediates/exploded-aar/tv.danmaku.ijk.media/ijkplayer-java/0.7.9/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.3"
+        sha1="33c928faf826c48be78f9f6730db14295f7f92ec">
+        <dex dex="/Users/gamekonglee/Downloads/GkleeProject/yangguang/app/build/intermediates/pre-dexed/debug/tv.danmaku.ijk.media-ijkplayer-java-0.7.9_a2bf491b960a78c04f8204dffd39065c22f6241d.jar" />
+    </item>
+    <item
+        jar="/Users/gamekonglee/.gradle/caches/modules-2/files-2.1/io.reactivex/rxjava/1.1.0/748f0546d5c3c27f1aef07270ffea0c45f0c42a4/rxjava-1.1.0.jar"
+        jumboMode="false"
+        revision="25.0.3"
+        sha1="748f0546d5c3c27f1aef07270ffea0c45f0c42a4">
+        <dex dex="/Users/gamekonglee/Downloads/GkleeProject/yangguang/app/build/intermediates/pre-dexed/debug/rxjava-1.1.0_79ab87d42eafb101c7535c98d93642075e6b29ac.jar" />
+    </item>
+    <item
+        jar="/Users/gamekonglee/Downloads/GkleeProject/yangguang/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.3"
+        sha1="23be6993826b8fd88bbc8d14928bb3b8960d3d4e">
+        <dex dex="/Users/gamekonglee/Downloads/GkleeProject/yangguang/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-23.3.0_597037f454793928ab9a53f940278e18615ee8a4.jar" />
+    </item>
+    <item
+        jar="/Users/gamekonglee/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-android/1.7.21/f4f6a07c00f3996d8db58c85a3d73377b40611eb/slf4j-android-1.7.21.jar"
+        jumboMode="false"
+        revision="25.0.3"
+        sha1="f4f6a07c00f3996d8db58c85a3d73377b40611eb">
+        <dex dex="/Users/gamekonglee/Downloads/GkleeProject/yangguang/app/build/intermediates/pre-dexed/debug/slf4j-android-1.7.21_8f9998fedacaff3379621bc82a7e72bca1d1d930.jar" />
+    </item>
+    <item
+        jar="/Users/gamekonglee/Downloads/GkleeProject/yangguang/app/build/intermediates/exploded-aar/com.andkulikov/transitionseverywhere/1.7.0/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.3"
+        sha1="24a746ed49aea913f5f009715c49e01a8d758e3f">
+        <dex dex="/Users/gamekonglee/Downloads/GkleeProject/yangguang/app/build/intermediates/pre-dexed/debug/com.andkulikov-transitionseverywhere-1.7.0_7e3ac7f6fa971f607a10e9cacc4dd9bac05e2958.jar" />
+    </item>
+    <item
+        jar="/Users/gamekonglee/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit/adapter-rxjava/2.0.0-beta2/3a233746381a03dbb0f5f3ed10b11c3e72dba499/adapter-rxjava-2.0.0-beta2.jar"
+        jumboMode="false"
+        revision="25.0.3"
+        sha1="3a233746381a03dbb0f5f3ed10b11c3e72dba499">
+        <dex dex="/Users/gamekonglee/Downloads/GkleeProject/yangguang/app/build/intermediates/pre-dexed/debug/adapter-rxjava-2.0.0-beta2_08028f808b545730927fbe0bab6fcd2c034bb26c.jar" />
+    </item>
+    <item
+        jar="/Users/gamekonglee/Downloads/GkleeProject/yangguang/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.3"
+        sha1="09c5e804bc67fc0580360043dff067df574a60d4">
+        <dex dex="/Users/gamekonglee/Downloads/GkleeProject/yangguang/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-23.1.1_43db9f1ab44825ce7333322d9a765e1a836661d9.jar" />
+    </item>
+    <item
+        jar="/Users/gamekonglee/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.11.0/840897fcd7223a8143f1d9b6f69714e7be34fd50/okio-1.11.0.jar"
+        jumboMode="false"
+        revision="25.0.3"
+        sha1="840897fcd7223a8143f1d9b6f69714e7be34fd50">
+        <dex dex="/Users/gamekonglee/Downloads/GkleeProject/yangguang/app/build/intermediates/pre-dexed/debug/okio-1.11.0_c47ac11def1e40287e1c84ffd430276848f6ec52.jar" />
+    </item>
+    <item
+        jar="/Users/gamekonglee/Downloads/GkleeProject/yangguang/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.3"
+        sha1="379471b2bd17d9737c050345c08e8c7d16589784">
+        <dex dex="/Users/gamekonglee/Downloads/GkleeProject/yangguang/app/build/intermediates/pre-dexed/debug/com.android.support-design-23.1.1_b02cbfaf4c8b4df3f221c7beae3492f261ac3536.jar" />
+    </item>
+    <item
+        jar="/Users/gamekonglee/Downloads/GkleeProject/yangguang/app/libs/open_sdk_r6019_lite.jar"
+        jumboMode="false"
+        revision="25.0.3"
+        sha1="dde45810a88f02f379fa3a6fd4ecd413e7ca3ac7">
+        <dex dex="/Users/gamekonglee/Downloads/GkleeProject/yangguang/app/build/intermediates/pre-dexed/debug/open_sdk_r6019_lite_ce9b88a08ec8ca312a81223f027d88a7ee5f6036.jar" />
+    </item>
+    <item
+        jar="/Users/gamekonglee/.gradle/caches/modules-2/files-2.1/com.google.zxing/core/3.2.1/2287494d4f5f9f3a9a2bb6980e3f32053721b315/core-3.2.1.jar"
+        jumboMode="false"
+        revision="25.0.3"
+        sha1="2287494d4f5f9f3a9a2bb6980e3f32053721b315">
+        <dex dex="/Users/gamekonglee/Downloads/GkleeProject/yangguang/app/build/intermediates/pre-dexed/debug/core-3.2.1_bea2795ff503754ae0807a357ea8d43cfb043f74.jar" />
+    </item>
+    <item
+        jar="/Users/gamekonglee/Downloads/GkleeProject/yangguang/app/libs/MobTools-2016.0830.1940.jar"
+        jumboMode="false"
+        revision="25.0.3"
+        sha1="210bf77409df74387b9df1d7987de310a2e0b145">
+        <dex dex="/Users/gamekonglee/Downloads/GkleeProject/yangguang/app/build/intermediates/pre-dexed/debug/MobTools-2016.0830.1940_6f8f81d7a7d06f7ca257d068c3ceff2ba826370d.jar" />
+    </item>
+    <item
+        jar="/Users/gamekonglee/Downloads/GkleeProject/yangguang/app/build/intermediates/exploded-aar/yangguang/libraryNiftyDialogEffects/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.3"
+        sha1="88b96ed98b5e7871586e7efeb1d5315a77d393e3">
+        <dex dex="/Users/gamekonglee/Downloads/GkleeProject/yangguang/app/build/intermediates/pre-dexed/debug/yangguang-libraryNiftyDialogEffects-unspecified_51a08be90fba161423386ec7db6f3694545dd622.jar" />
+    </item>
+    <item
+        jar="/Users/gamekonglee/Downloads/GkleeProject/yangguang/app/build/intermediates/exploded-aar/yangguang/common/unspecified/jars/libs/nineoldandroids-2.4.0.jar"
+        jumboMode="false"
+        revision="25.0.3"
+        sha1="543fde416b865f1dee90fb12e094cd90cbbb1fa2">
+        <dex dex="/Users/gamekonglee/Downloads/GkleeProject/yangguang/app/build/intermediates/pre-dexed/debug/nineoldandroids-2.4.0_a65307ba835d6522b861e66a91fa37b056c12832.jar" />
+    </item>
+    <item
+        jar="/Users/gamekonglee/Downloads/GkleeProject/yangguang/app/build/intermediates/exploded-aar/libraryConvenientBanner/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.3"
+        sha1="e133fb28dbc8dd5d13ff32f8178de8ea35b2aeb9">
+        <dex dex="/Users/gamekonglee/Downloads/GkleeProject/yangguang/app/build/intermediates/pre-dexed/debug/intermediates-exploded-aar-libraryConvenientBanner_00540ae851f5f6382ccf924c18b89ad06b5a12b8.jar" />
+    </item>
+    <item
+        jar="/Users/gamekonglee/Downloads/GkleeProject/yangguang/app/build/intermediates/exploded-aar/cn.qqtheme.framework/Common/1.5.6.20190131/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.3"
+        sha1="5aabb6c13c9c215e8abb9abcd8b00bfc91ef47fc">
+        <dex dex="/Users/gamekonglee/Downloads/GkleeProject/yangguang/app/build/intermediates/pre-dexed/debug/cn.qqtheme.framework-Common-1.5.6.20190131_edcb78eae45cfa4ce0f17ec3e69035d68bfea733.jar" />
+    </item>
+    <item
+        jar="/Users/gamekonglee/Downloads/GkleeProject/yangguang/app/build/intermediates/exploded-aar/yangguang/filter-lib/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.3"
+        sha1="0693275bb7b14336dfe3ca3103266d6be0d8ac4b">
+        <dex dex="/Users/gamekonglee/Downloads/GkleeProject/yangguang/app/build/intermediates/pre-dexed/debug/yangguang-filter-lib-unspecified_a0ef0e9970ee2b39b9b36e2c2e7202e365b2b100.jar" />
+    </item>
+    <item
+        jar="/Users/gamekonglee/Downloads/GkleeProject/yangguang/app/build/intermediates/exploded-aar/com.google.android.exoplayer/exoplayer/r1.5.11/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.3"
+        sha1="0a919fdfb7808ff27b33e6e84ec990478abc9cf1">
+        <dex dex="/Users/gamekonglee/Downloads/GkleeProject/yangguang/app/build/intermediates/pre-dexed/debug/com.google.android.exoplayer-exoplayer-r1.5.11_ef76dab84752c8ddf7f752afd2c1374f89b3473a.jar" />
+    </item>
+
+</items>
